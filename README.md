@@ -10,7 +10,7 @@ rotate photos so that they will face the right way in all web browsers.
 
 ## Install
 
-Click "Release" on the github site. Then click the green download button.
+[Click here to access the latest releases on github.](https://github.com/punkave/imagecrunch/releases) Click the newest release, then click the green download button.
 
 Once the file arrives, copy it to `/usr/local/bin` or your preferred location and mark it executable:
 
