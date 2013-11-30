@@ -6,9 +6,7 @@
 sizes. `imagecrunch` can also crop, convert between formats and automatically
 rotate photos so that they will face the right way in all web browsers.
 
-`imagecrunch` relies on native MacOS X APIs, which is why it is less than 300 lines of code and the binary is about 15K. On Linux or Windows we suggest using Imagemagick, which can do much, much more, although imagecrunch is a lot faster.
-
-(You can also run Imagemagick on a Mac if you use macports or homebrew.)
+`imagecrunch` relies on native MacOS X APIs, which is why it is less than 300 lines of code and the binary is about 15K. It is also why it is very fast.
 
 ## Install
 
@@ -63,6 +61,20 @@ Yes, it's valid JSON. Just call JSON.parse() in your scripting language of choic
 ## Changelog
 
 1.0.0: initial release.
+
+## Alternatives
+
+On Linux or Windows we suggest using Imagemagick, which can do much, much more, although imagecrunch is a lot faster.
+
+You can also run Imagemagick on a Mac if you use macports or homebrew.
+
+"What about `sips` on the Mac?" The built-in sips tool is nice, but:
+
+* It can't remove JPEG orientations to make photos face the right way in every browser,
+* It can't crop an arbitrarily chosen portion of an image, and
+* It doesn't support separate limits for width and height.
+
+It's a nice tool, but we really need those features. If you don't, type `man sips` sometime.
 
 ## Credits
 
