@@ -8,6 +8,8 @@ rotate photos so that they will face the right way in all web browsers.
 
 `imagecrunch` relies on native MacOS X APIs, which is why it is less than 300 lines of code and the binary is about 15K. On Linux or Windows we suggest using Imagemagick, which can do much, much more, although imagecrunch is a lot faster.
 
+(You can also run Imagemagick on a Mac if you use macports or homebrew.)
+
 ## Install
 
 [Click here to access the latest releases on github.](https://github.com/punkave/imagecrunch/releases) Click the green download button for the newest release.
