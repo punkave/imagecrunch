@@ -10,6 +10,7 @@
 		8DF3A655184A24EF0001F31A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF3A654184A24EF0001F31A /* Foundation.framework */; };
 		8DF3A658184A24EF0001F31A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF3A657184A24EF0001F31A /* main.m */; };
 		8DF3A65C184A24EF0001F31A /* imagecrunch.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DF3A65B184A24EF0001F31A /* imagecrunch.1 */; };
+		8DF3A663184A26300001F31A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF3A662184A26300001F31A /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		8DF3A657184A24EF0001F31A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8DF3A65A184A24EF0001F31A /* imagecrunch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imagecrunch-Prefix.pch"; sourceTree = "<group>"; };
 		8DF3A65B184A24EF0001F31A /* imagecrunch.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = imagecrunch.1; sourceTree = "<group>"; };
+		8DF3A662184A26300001F31A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF3A663184A26300001F31A /* AppKit.framework in Frameworks */,
 				8DF3A655184A24EF0001F31A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +68,7 @@
 		8DF3A653184A24EF0001F31A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8DF3A662184A26300001F31A /* AppKit.framework */,
 				8DF3A654184A24EF0001F31A /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -217,18 +221,24 @@
 		8DF3A660184A24EF0001F31A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "imagecrunch/imagecrunch-Prefix.pch";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
 		8DF3A661184A24EF0001F31A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "imagecrunch/imagecrunch-Prefix.pch";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};

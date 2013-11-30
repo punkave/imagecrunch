@@ -1,0 +1,172 @@
+Timagecrunch
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/2m/z8_zgznx3sxfz5k57jz4z0yr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/imagecrunch-Prefix-fpdoggxnwveivgdlkjnbcywezcqx/imagecrunch-Prefix.pch.pch imagecrunch/imagecrunch-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/main.o /Users/boutell/src/imagecrunch/imagecrunch/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/boutell/src/imagecrunch/build/Release/imagecrunch normal x86_64
+cGenerateDSYMFile /Users/boutell/src/imagecrunch/build/Release/imagecrunch.dSYM /Users/boutell/src/imagecrunch/build/Release/imagecrunch
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005228144B00000000000000AA
+t1378358347
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/SDKSettings.plist
+c000000005282381E00000000000004B3
+t1384265758
+s1203
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005282381E00000000000001DE
+t1384265758
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c000000005282381E000000000024BF04
+t1384265758
+s2408196
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005282381F00000000000C4C54
+t1384265759
+s805972
+
+N/Users/boutell/src/imagecrunch/build/Release/imagecrunch
+t1385846160
+s15928
+
+N/Users/boutell/src/imagecrunch/build/Release/imagecrunch.dSYM
+t2
+s0
+
+N/Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/imagecrunch.LinkFileList
+c00000000529A5590000000000000006E
+t1385846160
+s110
+
+N/Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/main.o
+t1385846160
+s23448
+
+N/Users/boutell/src/imagecrunch/imagecrunch/imagecrunch-Prefix.pch
+c000000005299ED6F00000000000000B4
+t1385819503
+s180
+
+N/Users/boutell/src/imagecrunch/imagecrunch/main.m
+c00000000529A550A0000000000001D82
+t1385846026
+s7554
+
+N/var/folders/2m/z8_zgznx3sxfz5k57jz4z0yr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/imagecrunch-Prefix-fpdoggxnwveivgdlkjnbcywezcqx/imagecrunch-Prefix.pch.pch
+t1385846160
+s9560844
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3e7b2a108d4ab841^8e3b3d108d4ab841^---0#1#1#--18"Check dependencies36"B0AFDA24-E8D5-41E9-A55B-41AF07177A67-
+
+CCompileC build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/main.o /Users/boutell/src/imagecrunch/imagecrunch/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407538960.776417
+e407538960.940521
+r1
+xCompileC
+xbuild/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/main.o
+x/Users/boutell/src/imagecrunch/imagecrunch/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/boutell/src/imagecrunch/imagecrunch/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/boutell/src/imagecrunch/imagecrunch/main.m192"[1mCompileC[0m build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/main.o [1mimagecrunch/main.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler8bddc6108d4ab841^b9c5f0108d4ab841^---0#0#1#-19%DVTDocumentLocation2@65"file://localhost/Users/boutell/src/imagecrunch/imagecrunch/main.m0000000000000000^3037"[1mCompileC[0m build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/main.o [1mimagecrunch/main.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boutell/src/imagecrunch    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/imagecrunch-generated-files.hmap -I/Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/imagecrunch-own-target-headers.hmap -I/Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/imagecrunch-all-target-headers.hmap -iquote /Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/imagecrunch-project-headers.hmap -I/Users/boutell/src/imagecrunch/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/DerivedSources/x86_64 -I/Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/DerivedSources -F/Users/boutell/src/imagecrunch/build/Release -include /var/folders/2m/z8_zgznx3sxfz5k57jz4z0yr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/imagecrunch-Prefix-fpdoggxnwveivgdlkjnbcywezcqx/imagecrunch-Prefix.pch -MMD -MT dependencies -MF /Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/main.dia -c /Users/boutell/src/imagecrunch/imagecrunch/main.m -o /Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/main.o36"27DE7E16-2081-4404-B548-8DE6FFFD463E-
+bA6CEC268-8E51-4FAA-9E43-2AA1DDBB84C2
+
+CGenerateDSYMFile /Users/boutell/src/imagecrunch/build/Release/imagecrunch.dSYM /Users/boutell/src/imagecrunch/build/Release/imagecrunch
+s407538961.001087
+e407538961.012250
+r1
+xGenerateDSYMFile
+x/Users/boutell/src/imagecrunch/build/Release/imagecrunch.dSYM
+x/Users/boutell/src/imagecrunch/build/Release/imagecrunch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Generate /Users/boutell/src/imagecrunch/build/Release/imagecrunch.dSYM89"[1mGenerateDSYMFile[0m [1mbuild/Release/imagecrunch.dSYM[0m build/Release/imagecrunch585400118d4ab841^922503118d4ab841^---0#0#1#-19%DVTDocumentLocation2@77"file://localhost/Users/boutell/src/imagecrunch/build/Release/imagecrunch.dSYM003888e7ddffdf42^350"[1mGenerateDSYMFile[0m [1mbuild/Release/imagecrunch.dSYM[0m build/Release/imagecrunch    cd /Users/boutell/src/imagecrunch    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/boutell/src/imagecrunch/build/Release/imagecrunch -o /Users/boutell/src/imagecrunch/build/Release/imagecrunch.dSYM36"81E58963-64EA-48E8-9518-9CE586C79AB1-
+bA6CEC268-8E51-4FAA-9E43-2AA1DDBB84C2
+
+CLd /Users/boutell/src/imagecrunch/build/Release/imagecrunch normal x86_64
+s407538960.949310
+e407538960.992296
+r1
+xLd
+x/Users/boutell/src/imagecrunch/build/Release/imagecrunch
+xnormal
+xx86_64
+d/Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/imagecrunch.LinkFileList
+d/Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdnsinfo.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Link /Users/boutell/src/imagecrunch/build/Release/imagecrunch50"[1mLd[0m build/Release/imagecrunch normal x86_641a16f3108d4ab841^8107fe108d4ab841^---0#0#1#--908"[1mLd[0m build/Release/imagecrunch normal x86_64    cd /Users/boutell/src/imagecrunch    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/boutell/src/imagecrunch/build/Release -F/Users/boutell/src/imagecrunch/build/Release -filelist /Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/imagecrunch.LinkFileList -mmacosx-version-min=10.8 -fobjc-arc -fobjc-link-runtime -framework AppKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/Objects-normal/x86_64/imagecrunch_dependency_info.dat -o /Users/boutell/src/imagecrunch/build/Release/imagecrunch36"13155B63-63AE-4648-9C9E-BD7ABFC0D51A-
+bA6CEC268-8E51-4FAA-9E43-2AA1DDBB84C2
+
+CProcessPCH /var/folders/2m/z8_zgznx3sxfz5k57jz4z0yr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/imagecrunch-Prefix-fpdoggxnwveivgdlkjnbcywezcqx/imagecrunch-Prefix.pch.pch imagecrunch/imagecrunch-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s407538960.244710
+e407538960.767652
+r1
+xProcessPCH
+x/var/folders/2m/z8_zgznx3sxfz5k57jz4z0yr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/imagecrunch-Prefix-fpdoggxnwveivgdlkjnbcywezcqx/imagecrunch-Prefix.pch.pch
+ximagecrunch/imagecrunch-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/boutell/src/imagecrunch/imagecrunch/imagecrunch-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile imagecrunch/imagecrunch-Prefix.pch316"[1mProcessPCH[0m /var/folders/2m/z8_zgznx3sxfz5k57jz4z0yr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/imagecrunch-Prefix-fpdoggxnwveivgdlkjnbcywezcqx/imagecrunch-Prefix.pch.pch imagecrunch/imagecrunch-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerdec63e108d4ab841^0586c4108d4ab841^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Users/boutell/src/imagecrunch/imagecrunch/imagecrunch-Prefix.pch0000000000000000^3231"[1mProcessPCH[0m /var/folders/2m/z8_zgznx3sxfz5k57jz4z0yr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/imagecrunch-Prefix-fpdoggxnwveivgdlkjnbcywezcqx/imagecrunch-Prefix.pch.pch imagecrunch/imagecrunch-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boutell/src/imagecrunch    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/imagecrunch-generated-files.hmap -I/Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/imagecrunch-own-target-headers.hmap -I/Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/imagecrunch-all-target-headers.hmap -iquote /Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/imagecrunch-project-headers.hmap -I/Users/boutell/src/imagecrunch/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/DerivedSources/x86_64 -I/Users/boutell/src/imagecrunch/build/imagecrunch.build/Release/imagecrunch.build/DerivedSources -F/Users/boutell/src/imagecrunch/build/Release --serialize-diagnostics /var/folders/2m/z8_zgznx3sxfz5k57jz4z0yr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/imagecrunch-Prefix-fpdoggxnwveivgdlkjnbcywezcqx/imagecrunch-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/2m/z8_zgznx3sxfz5k57jz4z0yr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/imagecrunch-Prefix-fpdoggxnwveivgdlkjnbcywezcqx/imagecrunch-Prefix.pch.d -c /Users/boutell/src/imagecrunch/imagecrunch/imagecrunch-Prefix.pch -o /var/folders/2m/z8_zgznx3sxfz5k57jz4z0yr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/imagecrunch-Prefix-fpdoggxnwveivgdlkjnbcywezcqx/imagecrunch-Prefix.pch.pch36"E7A5315C-47CC-48C8-AFA0-6014B846BE01-
+bA6CEC268-8E51-4FAA-9E43-2AA1DDBB84C2
+
