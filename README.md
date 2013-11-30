@@ -8,6 +8,16 @@ rotate photos so that they will face the right way in all web browsers.
 
 `imagecrunch` relies on native MacOS X APIs, which is why it is less than 300 lines of code and the binary is about 15K. On Linux or Windows we suggest using Imagemagick, which can do much, much more, although imagecrunch is a lot faster.
 
+## Install
+
+Click "Release" on the github site. Then click the green download button.
+
+Once the file arrives, copy it to `/usr/local/bin` or your preferred location and mark it executable:
+
+    chmod 700 /usr/local/bin
+
+Feel free to build the xcode project instead. We welcome pull requests but do want to keep this tool really, really simple.
+
 ## Usage
 
 Let's scale an image to three different sizes with one command:
