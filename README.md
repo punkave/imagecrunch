@@ -1,5 +1,7 @@
 # imagecrunch
 
+<a href="http://apostrophenow.org/"><img src="https://raw.github.com/punkave/imagecrunch/master/logos/logo-box-madefor.png" align="right" /></a>
+
 `imagecrunch` is a simple, blazing fast tool for rendering an image file at many
 sizes. `imagecrunch` can also crop, convert between formats and automatically
 rotate photos so that they will face the right way in all web browsers.
@@ -58,4 +60,6 @@ Created at [P'unk Avenue](http://punkave.com/).
 ## Questions
 
 [Create issues on github](http://punkave.com/imagecrunch).
+
+<a href="http://punkave.com/"><img src="https://raw.github.com/punkave/imagecrunch/master/logos/logo-box-builtby.png" /></a>
 
