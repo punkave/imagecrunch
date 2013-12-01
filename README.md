@@ -14,7 +14,8 @@ rotate photos so that they will face the right way in all web browsers.
 
 Once the file arrives, copy it to `/usr/local/bin` or your preferred location and mark it executable:
 
-    chmod 700 /usr/local/bin
+    cp ~/Downloads/imagecrunch /usr/local/bin
+    chmod 700 /usr/local/bin/imagecrunch
 
 Feel free to build the xcode project instead. We welcome pull requests but do want to keep this tool really, really simple.
 
